@@ -56,7 +56,7 @@ menuChoice = input("And would you like an item from the bakery? : ")
 while isOrdering:
     if menuChoice == "4":
         print("I'll toast one for you right now!")
-        bakeryOrder = " and a Bagel"
+        bakeryOrder = "and a Bagel"
         isOrdering = False
     elif menuChoice == "5":
         print("Those were baked fresh just this morning!")
@@ -64,7 +64,7 @@ while isOrdering:
         isOrdering = False
     elif menuChoice == "6":
         print("Excellent choice - I love the fresh spices!")
-        bakeryOrder = " and a fresh slice of Pumpkin Bread"
+        bakeryOrder = "and a fresh slice of Pumpkin Bread"
         isOrdering = False
     elif menuChoice == "n":
         isOrdering = False
