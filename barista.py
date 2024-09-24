@@ -44,6 +44,7 @@ while isOrdering:
         isOrdering = False
     else :
         print("Please choose 1, 2, or 3")
+        menuChoice = input("What would you like to drink? : ")
 
 menuChoice = input("and, would you like cream on that? (y/N): ")
 if menuChoice == "y":
@@ -69,6 +70,7 @@ while isOrdering:
         isOrdering = False
     else :
         print("Please choose 4, 5, 6, or 'n' for No.")
+        menuChoice = input("Would you like an item from the bakery? : ")
 
 print(" === That'll be ready in just a few minutes...\n")
 
