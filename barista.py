@@ -8,9 +8,8 @@
 
 # -- Greet the customer
 print('''
-
 Welcome to WacBucks, the PTech Coffee Cafe.
-My name is CuppaJoe, your coffee-robot extraordinaire!
+My name is CuppaJoe, your coffee-robot extraordinaire! /n
 ''')
 customerName = input("And may I have your name, please? : ")
 
@@ -24,7 +23,7 @@ What I can I get for you today?
  2. Espresso                 5. Croissant
  3. Pumpkin Spice Latte      6. Pumpkin Bread
  
-Please order one drink and, if you want, one bakery item.
+Please order one drink and, if you want, one bakery item. /n
 ''')
 isOrdering = True      # --- Drink Order
 drinkOrder = bakeryOrder = ""
